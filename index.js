@@ -7,7 +7,7 @@ const PORT = 5000;
 const config = {
   host: process.env.MC_HOST || 'nika777.aternos.me',
   port: parseInt(process.env.MC_PORT || '44016'),
-  username: process.env.MC_USERNAME || 'Bot',
+  username: process.env.MC_USERNAME || '7afozli9',
   version: process.env.MC_VERSION || false,
   auth: process.env.MC_AUTH || 'offline'
 };
@@ -74,11 +74,11 @@ function reconnect() {
     return;
   }
   isReconnecting = true;
-  console.log('[Bot] Reconnecting in 5 seconds...');
+  console.log('[Bot] Reconnecting in 20 seconds...');
   setTimeout(() => {
     isReconnecting = false;
     createBot();
-  }, 5000);
+  }, 20000);
 }
 
 function stopAntiAFK() {
