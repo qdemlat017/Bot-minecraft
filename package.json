@@ -2,22 +2,11 @@
   "name": "minecraft-bot",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": ["minecraft", "bot", "mineflayer"],
-  "author": "",
-  "license": "ISC",
-  "description": "Minecraft bot that keeps servers online with anti-AFK features",
-  "engines": {
-    "node": ">=18.0.0"
+    "start": "node index.js"
   },
   "dependencies": {
-    "express": "^5.1.0",
-    "mineflayer": "^4.25.0"
+    "mineflayer": "^4.16.1"
   }
-}
-"scripts": {
-  "start": "node index.js"
 }
