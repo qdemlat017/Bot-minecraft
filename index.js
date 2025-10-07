@@ -22,7 +22,7 @@ function createBot() {
 
   bot.on("end", () => {
     console.log("🔁 إعادة الاتصال خلال 10 ثواني...");
-    setTimeout(createBot, 10000);
+    setTimeout(createBot, 15000);
   });
 }
 
